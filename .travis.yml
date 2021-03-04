@@ -7,8 +7,6 @@ branches:
    except:
      - gh-pages # will be deployed to, no need to build it
 
-before_script:
-		- npm install -g @angular/cli
 
 script:
    - npm run build --prod # Generates the dist folder with built angular app
