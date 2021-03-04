@@ -19,12 +19,13 @@ deploy:
        branch: master # Build only from master
    local_dir: dist #
 
+	 deploy:
 	 - provider: azure_web_apps
-	 skip_cleanup: true
+	 	skip_cleanup: true
 		username: testingtravis\$testingtravis
 		password: v9Xnd31TvxmWtvksg9iPCwiuC8cWdT0GnJjlQx0YBqejctodErXkEYzmHtnK
 		site: ftps://waws-prod-dm1-085.ftp.azurewebsites.windows.net/site/wwwroot
 		on:
        branch: master # Build only from master
-   local_dir: dist #
+   
 
