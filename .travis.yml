@@ -8,7 +8,7 @@ branch:
 		- gh-pages
 
 script:
- 	-npm run build --prod
+ 	-npm run build
 
 deploy:
 	provider: pages
