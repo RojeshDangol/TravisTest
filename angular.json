@@ -19,16 +19,16 @@
           "options": {
             "outputPath": "dist/TravisTest",
             "index": "src/index.html",
-            "main": "./src/main.ts",
-            "polyfills": "./src/polyfills.ts",
+            "main": "src/TravisTest/main.ts",
+            "polyfills": "src/TravisTest/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
-              "./src/favicon.ico",
-              "./src/assets"
+              "src/TravisTest/favicon.ico",
+              "src/TravisTest/assets"
             ],
             "styles": [
-              "./src/styles.css"
+              "src/TravisTest/styles.css"
             ],
             "scripts": []
           },
