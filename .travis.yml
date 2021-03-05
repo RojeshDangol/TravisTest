@@ -6,6 +6,7 @@ node_js:
 branches:
    except:
      - gh-pages # will be deployed to, no need to build it
+		 - /.*/
  
 script:
    - npm run build --prod # Generates the dist folder with built angular app
