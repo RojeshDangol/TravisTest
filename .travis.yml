@@ -10,12 +10,10 @@ branches:
 script:
    - npm run build --prod # Generates the dist folder with built angular app
  
-before_install: cd project
- 
 deploy:
    provider: pages
    skip_cleanup: true # Prevent travis from cleaning out the branch before the deploy occurs
    github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
    on:
        branch: master # Build only from master
-   local_dir: dist #
+   local_dir: ./dist/TravisTest #
