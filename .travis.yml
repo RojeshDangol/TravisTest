@@ -10,7 +10,7 @@ branches:
 script:
    - npm run build --prod # Generates the dist folder with built angular app
  
-before_install: cd ./TravisTest
+before_install: cd project
  
 deploy:
    provider: pages
