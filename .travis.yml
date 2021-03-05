@@ -7,6 +7,10 @@ branches:
    except:
      - gh-pages # will be deployed to, no need to build it
  
+cache:
+  directories:
+   - node_modules
+ 
 script:
    - npm run build # Generates the dist folder with built angular app
  
