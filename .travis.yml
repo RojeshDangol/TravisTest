@@ -10,6 +10,8 @@ branches:
 script:
    - npm run build --prod # Generates the dist folder with built angular app
  
+before_install: cd TravisTest
+ 
 deploy:
    provider: pages
    skip_cleanup: true # Prevent travis from cleaning out the branch before the deploy occurs
