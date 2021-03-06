@@ -13,7 +13,6 @@ cache:
  
 script:
    - npm run build --base-href # Generates the dist folder with built angular app
-   - cp dist/TravisTest/index.html dist/ #
  
 deploy:
    provider: pages
