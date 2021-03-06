@@ -82,16 +82,16 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "src/test.ts",
-            "polyfills": "src/polyfills.ts",
+            "main": "src/TravisTest/test.ts",
+            "polyfills": "src/TravisTest/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
             "assets": [
-              "src/favicon.ico",
-              "src/assets"
+              "src/TravisTest/favicon.ico",
+              "src/TravisTest/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/TravisTest/styles.css"
             ],
             "scripts": []
           }
