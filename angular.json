@@ -47,6 +47,7 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
+              "baseHref": "https://rojeshdangol.github.io/TravisTest/",
               "budgets": [
                 {
                   "type": "initial",
